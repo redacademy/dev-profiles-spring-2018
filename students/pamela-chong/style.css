@@ -1,0 +1,92 @@
+header {
+    background-color: darkseagreen;
+    font-family: 'Courier New', Courier, monospace;
+    height: 300px;
+}
+
+#titleheader h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px; 
+}
+
+#titleheader p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px; 
+    text-transform: uppercase;
+    color: white;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    letter-spacing: 20px;
+    padding: 4px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+h2,
+h3{
+    display: inline-block;
+}
+
+#timeline p {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+#timeline {
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+     
+}
+
+img{
+   display: block;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 400px;
+   max-height: 400px;
+}
+
+footer {
+    background-color: darkseagreen;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+li.footer {
+    list-style-type: square;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+summary {
+    display: block;
+}
+
+
+
