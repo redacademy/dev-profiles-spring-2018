@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Andrei Egorov</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Hi, I'm Andrei</h1>  
+    <article>
+            <div class="double">
+                    <img src="images/happy.jpg" alt="Me smiling">
+                    <img src="images/grumpy.jpg" alt="Me frowning" class="hide">
+                </div>
+        <p id="firstp">
+        I grew up in the city of Karabalta in Kyrgyzstan. If you are not sure where this country is, you probably know <a href="https://www.youtube.com/watch?v=WH2CABcffAo"> Borat.   </a>
+        <br>
+        We are neighbours. 
+        <br>
+        Not too long ago I lived in USA temporarely working for an IT services company in Chicago. 
+        I initially wanted to become a professional accountant until I decided to become a web developer. 
+        So, I had come to Vancouver and found a survival job as an accounting clerk, which I quit last Friday. I SURVIVED!
+    
+        </p>
+    </article>
+    <article id="secondart">
+        <p>
+        While in the USA, I have visited a number of states and its most prominent landmarks such as: Zion Park, Mount Rush Moore, Crazy Horse, Grand Canyon and others.
+        All of those places are what you would normally see on TV, but being there, especially Grand Canyon, makes you really understand how majecstic those places are. 
+        It's hard to pick only one "best travel experience", so I will stick with the few mentioned above.
+        </p>
+        <p>
+            I enjoy bike riding and hiking. I don't like sharing my secrets, so I will only tell you what my secret talent is if you promise not 
+            to tell anyone. Click "I Promise, if you do".
+        </p>
+        <div>
+            
+            I Promise: <input type="checkbox" id="promise" onclick="mytalent()">
+
+            <script>
+                function mytalent(){
+                    var checkbox = document.getElementById("promise");
+                    var text = document.getElementById("text");
+                    if (checkbox.checked == true) {text.style.display = "block";}
+                    else{
+                        text.style.display = "none";
+                    }
+
+                }
+            </script>
+        <p id="text" style="display: none">I am an amazing shower singer =)</p>
+
+        </div>
+        <p>
+            My plan is to join a team of talented developers to work on a meaningfull project right after the program here is over.
+        </p>
+        <p id="connect">
+         For now, I am here to learn an make a ton of friends, so let's connect.
+         <br>
+         <button type="button" class="btn btn-li"> <i class="fa fa-linkedin pr-1"> </i><a href="https://www.linkedin.com/in/andrei-egorov/">Linkedin</a></button>
+         </p>
+
+         
+    </article>
+</body>
+
+
+
+</html>
