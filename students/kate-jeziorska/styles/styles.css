@@ -1,0 +1,209 @@
+/* Basic Layout */
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0.75em;
+    color: white;
+}
+
+header {
+  padding: 1.5%;
+}
+
+header h1 {
+  padding-top: 2.5%;
+}
+
+main, aside {
+  padding-top: 1%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+footer {
+  clear: both;
+  padding: 1%;
+}
+
+aside ul li {
+  margin: 1.5% 0;
+  line-height: 1.5;
+}
+ul {
+   list-style-type: circle;
+ }
+
+main ul li{
+  padding: 10px 0;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+header, footer {
+  background-color: #82bef5;
+}
+
+main {
+  width: 66%;
+  padding: 2%;
+    /*background-color: #F6CE30;*/
+  float: left;
+}
+section {
+  padding-top: 50px;
+  /*padding-right: 20px;
+  padding-left: 20px;*/
+  margin: 2% 0;
+}
+
+
+aside {
+  background-image: url(https://www.kasiaikod.pl/wp-content/uploads/2018/02/Kasia_Kate_Jeziorska_blackwhite_ps-768x1024.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+  background-size: contain;
+  height: 800px;
+  width: 25%;
+  padding: 2%;
+  float: right;
+}
+
+aside ul {
+  padding:10px 0;
+}
+
+aside ul li a {
+  font-size: 1.5em;
+  color: #F6CE30;
+  cursor: pointer;
+}
+.asidequestion{
+  margin-top: 50px;
+  padding-left: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  padding: 1%;
+  background-color: #466C88;
+  border-radius: 50%;
+}
+
+h1, h2, aside ul li {
+  font-family: 'Bungee', serif;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 4.166666em;
+  color: #fff;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.75em;
+}
+
+main h2 {
+  color: #F6CE30;
+}
+
+p, ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+#social-media img {
+  width: 35px;
+  padding: 1.5%;
+}
+
+/*  Call to Action Button */
+.action-button {
+  background-color: #466C88;
+  color: #F6CE30;
+  padding: 10px;
+  margin: 2.5% 0;
+  border-radius: 4px;
+  font-family: 'Bungee', serif;
+  font-size: 1.75em;
+  display: inline-block;
+}
+
+.container {
+  background-color: #466C88;
+  overflow: hidden;
+}
+
+/* hover states */
+aside ul li a:hover {
+  color: #82bef5;
+}
+
+.action-button:hover {
+  color: #466C88;
+  background-color: #F6CE30;
+}
+/*blockquote*/
+blockquote {
+  /*background: #f9f9f9;*/
+  border-left: 10px solid #f9f9f9;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #f9f9f9;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  font-family: 'Bungee', serif;
+  font-size: 1.5em;
+  color: #f9f9f9;
+}
+/* Stretch - Simple CSS Transition */
+a {
+  transition: .3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.highlight {
+  color: #F6CE30;
+  font-weight: bold;
+}
+
+/* media queries*/
+@media  all and (max-width:850px) {
+  main, aside {
+    width: 100%;
+  }
+  aside ul{
+    padding-left: 20px;
+    margin-left: 10px;
+    font-size:
+  }
+  section {
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 2% 0;
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans:400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="shortcut icon" href="assets/profile_pic_kate_j_website.png.png" type="image/x-icon">
+  <title>Kate J. website</title>
+</head>
+<body>
+  <header class="center">
+    <img class="center profile-picture fadeInDown" src="assets/profile_pic_kate_j_website.png.png" alt="profile picture">
+    <h1 >Kasia Kate Jeziorska</h1>
+    <p>I hope to be a web developer</p>
+    <!-- contact me-button-->
+    <a href="mailto:janina@kodowanko.com" class="center action-button">contact me!</a>
+  </header>
+
+  <div class="container">
+    <!--side bar on the right-->
+    <aside>
+      <ul>
+        <li><a href="#bio">bio</a></li>
+        <li><a href="#superpower">superpowers</a></li>
+        <li><a href="#quirky-fact">quirky fact</a></li>
+        <li><a href="#social-media">socials</a></li>
+      </ul>
+      <div class = "asidequestion">
+      <a href="" class="center action-button" onclick="askQuestion()">can I ask you a question?</a>
+      <p id="answer"></p>
+    </div>
+    </aside>
+    <!--sidebar on the right-end-->
+    <!--main text start-->
+    <main>
+      <section id="bio">
+        <h2>Life before Red</h2>
+        <p>The shortest bio ever: born in Poland, have lived in Canada for 4 years now.</p>
+        <p>Academic background: European languages and finance. Working 8 years in a corporate environment.</p>
+      <blockquote><p>If not me, who? If not now, when?</p></blockquote>
+      <p>Just another normal life. Just another normal thirty something girl.</p>
+      </section>
+      <section id="superpower">
+        <h2>Superpowers</h2>
+        <ul>
+          <li>At some point of my life I spoke 4 languages<span class="highlight"> German, Hungarian, Polish and English </span>. Now I wanna speak JavaScript and Wordpress!</li>
+          <li><span class="highlight">Mom from a decade.</span> Two boys, both hands full.</li>
+          <li>I talk a lot and write a lot. <br>I am running <span class = "highlight">two blogs:</span> one about my family in Canada and the other about learning how to code. Both in Polish language, sorry! <br> Last year I talked to more than <span class = "highlight">100 Polish women</span> living in Metro Vancouver.</li>
+        </ul>
+      </section>
+      <!--skills end-->
+      <!--quirky-fact-start-->
+      <section id="quirky-fact">
+        <h2>Quirky fact</h2>
+        <p>I do not like ice cream. Ask me, why.</p>
+      </section>
+      <!--quirky-fact-end-->
+    </main>
+  </div>
+  <footer>
+    <div class="center" id="social-media">
+      <a href="http://linkedin.com" target="_blank"><img src="assets/social_media/linkedin-logo.svg" alt="LinkedIn Icon"></a>
+      <a href="mailto:test@test.com" target="_blank"><img src="assets/social_media/github-icon-1.svg" alt="Email Icon"></a>
+    </div>
+  </footer>
+  <script>
+  function askQuestion() {
+      var question = prompt("Based on the color of this website can you guess what is my favourite furniture store?");
+      var answer;
+      if (question.toLowerCase() === "ikea") {
+          answer = "Yes, you are right " + question + " is my fav store!";
+      }
+      else {
+        answer = "Nope. But that's ok :) I am Ikea lover.";
+      }
+      document.getElementById("answer").innerHTML = answer;
+      alert(answer);
+    }
+  </script>
+</body>
+</html>
