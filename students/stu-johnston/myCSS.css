@@ -1,0 +1,27 @@
+
+
+body{
+    background-image: url("./background.jpg")
+}
+
+#stupic {
+    margin-top: 50px;
+}
+
+#profilebox{
+    margin-top: 100px;
+    padding-bottom: 24px;
+}
+
+#title{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 36px;
+}
+
+#great{
+    font-weight: bold;
+}
+
+.card-background{
+    background-color: rgba(207,216,220, 0.95) !important;
+}
