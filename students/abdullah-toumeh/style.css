@@ -1,0 +1,17 @@
+h1 {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: left;
+
+}
+h2 {
+    font-family: arial;
+    color: rgb(29, 128, 185);
+}
+span {color: red;
+
+}
+.hometown {opacity: 0.8;
+           color: grey;
+}
+
