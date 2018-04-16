@@ -1,0 +1,18 @@
+h1 {
+    font-family: Cursive;
+    color: purple;
+    text-align: center;
+    
+}
+h2 {
+    font-family: Arial;
+    color: teal
+
+}
+.hometown {
+    opacity: 0.7;
+    font-weight: bold;
+}
+h3 {
+    font-family: Arial;
+}
